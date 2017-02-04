@@ -1,0 +1,12 @@
+Tipo isso mas bem mais simples. Umas receitas espalhadas só com o nome e foto mesmo, sem nem link (foudasse).
+
+Exemplos:
+Paçoca de whey
+Brownie monstro
+Pão de mel monstro
+Sopa de monstro
+Risole monstrão
+Torta alemã de monstro
+Pavê de whey
+
+Implementar footer

@@ -1,0 +1,5 @@
+Cada uma das fotos terá um link pra uma página de artigo - DEIXA QUE EU FAÇO ESSAS PÁGINAS NO DOMINGO
+
+Carrossel ali embaixo
+
+Implementar footer

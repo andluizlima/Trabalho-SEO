@@ -1,0 +1,5 @@
+A foto é pra parte de cima da pagina, com 3 artigos principais
+
+Lista de fotos com supostos (rs) links embaixo disso
+
+Implementar footer

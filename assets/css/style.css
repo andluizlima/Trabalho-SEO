@@ -1,0 +1,84 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+a{
+    cursor: pointer;
+}
+
+.imagemLogo{
+    padding: 0px;
+    margin: 20px 0px;
+    height: 35px;
+}
+.navbar{
+    margin-bottom: 0px;
+    background-color: black;
+    border: none;
+    height: 65px;
+}
+.container{
+    width: 1000px;
+    position: relative;
+}
+.nav li a{
+    padding-top: 30px;
+    height: 70px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.5);
+}
+.navbar-right{
+    margin-top: 20px;
+    position: absolute;
+    top: calc(50% - 28px);
+    right: 0px;
+}
+.navbar-right li{
+    display: inline;
+}
+.navbar-right a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    transition: 0.5s;
+    font-weight: 700;
+    border-bottom: solid rgba(255,255,255,0);
+    border-top: solid rgba(255,255,255,0);
+}
+.navbar-right a:hover{
+    color: rgba(255,255,255,0.9);
+    transition: 0.5s;
+    border-bottom: solid rgba(255,255,255,1) 2px;
+    border-top: solid rgba(255,255,255,1) 2px;
+}
+.navbar-right .active a{
+    color: white;
+}
+
+
+
+
+#topo{
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/home/Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.transparencia-fundo{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+}
+#topo h1{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}

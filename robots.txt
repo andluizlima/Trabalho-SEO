@@ -1,0 +1,9 @@
+# 1 - Um robô não pode ferir um humano ou permitir que um humano sofra algum mal.
+# 2 - Os robôs devem obedecer às ordens dos humanos, exceto nos casos em que tais ordens entrem em conflito com a primeira lei.
+# 3 - Um robô deve proteger sua própria existência, desde que não entre em conflito com as leis anteriores.
+
+User-Agent: *
+Disallow:
+Allow: /
+
+Sitemap: http://www.diariodobodybuilder.com.br/sitemap.xml
