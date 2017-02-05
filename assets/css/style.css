@@ -14,48 +14,93 @@ a{
     margin: 20px 0px;
     height: 35px;
 }
-.navbar{
-    margin-bottom: 0px;
+#barraMenu{
+    font-family: inherit;
+}
+.navbar-default{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    font-size: 15px;
+    border-radius: 0px;
+    border-style: none;
     background-color: black;
-    border: none;
-    height: 65px;
+    padding: 5px 0px;
 }
-.container{
-    width: 1000px;
-    position: relative;
+.container-fluid{
+    margin: 0px 30px;
 }
-.nav li a{
-    padding-top: 30px;
-    height: 70px;
-    font-weight: 700;
-    color: rgba(255,255,255,0.5);
+.navbar a{
+    color: grey;
+}
+.navbar a:visited{
+    color: white;
+}
+.navbar-header h3{
+    padding: 0px;
+    color: white;
+    margin: 0px;
+    font-weight: 300;
+}
+.navbar-brand a{
+    padding: 20px 0px;
+}
+.menu{
+    position: absolute;
+    width: 200px;
+    height: 1000px;
+    background-color: rgba(0,0,0,0.2);
+    top: 0px;
+    left: calc(100%);
+    transition: 1s;
 }
 .navbar-right{
     margin-top: 20px;
+    margin-right: 5px;
+}
+.menu ul:nth-child(2){
+    border-top: solid;
+    border-bottom: solid;
+}
+.menu li{
+    margin: 10px 0px;
+    list-style: none;
+    font-weight: 300;
+    color: #888;
+}
+.menu h2{
+    margin-left: 25px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    color: #bbb;
+}
+.botaoMenu{
+    color: #888;
+    font-weight: 300;
+}
+.botaoMenu:after{
+    content:'MENU';
+}
+#navicon{
+    display: none;
+}
+#navicon:checked + label:after{
+    content: 'X';
+}
+#navicon:checked ~ .menu{
+    transition: 1s;
+    left: calc(100% - 200px);
+}
+.botaoMenu{
+    text-align: center;
+    right: 50px;
     position: absolute;
-    top: calc(50% - 28px);
-    right: 0px;
+    z-index: 500;
 }
-.navbar-right li{
-    display: inline;
-}
-.navbar-right a{
-    margin: 20px;
-    text-decoration: none;
-    color: rgba(255,255,255,0.5);
-    transition: 0.5s;
-    font-weight: 700;
-    border-bottom: solid rgba(255,255,255,0);
-    border-top: solid rgba(255,255,255,0);
-}
-.navbar-right a:hover{
-    color: rgba(255,255,255,0.9);
-    transition: 0.5s;
-    border-bottom: solid rgba(255,255,255,1) 2px;
-    border-top: solid rgba(255,255,255,1) 2px;
-}
-.navbar-right .active a{
-    color: white;
+.linha{
+    clear: both;
 }
 
 

@@ -3,7 +3,7 @@
 # 3 - Um robô deve proteger sua própria existência, desde que não entre em conflito com as leis anteriores.
 
 User-Agent: *
-Disallow:
+Disallow: /inspiracoes/relatos/
 Allow: /
 
 Sitemap: http://www.diariodobodybuilder.com.br/sitemap.xml
