@@ -8,6 +8,23 @@ body{
 a{
     cursor: pointer;
 }
+.tituloindex{
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  align-items:center;
+  position: relative;
+  margin: 0px auto;
+  margin-top: 300px;
+  color: white;
+}
+.tituloindex h2{
+  text-align: center;
+  width: 800px;
+  margin-left: 550px;
+}
 
 .imagemLogo{
     padding: 0px;
