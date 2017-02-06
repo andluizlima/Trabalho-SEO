@@ -15,19 +15,41 @@ a{
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-  align-items:center;
-  position: relative;
+    height: 300px;
+    width: 700px;
+  position: absolute;
   margin: 0px auto;
-  margin-top: 300px;
   color: rgba(255,255,255,0.8);
+    left: calc(50% - 350px);
+    top: calc(50% - 150px);
 }
 .tituloindex h2{
   text-align: center;
-  width: 800px;
-  margin-left: 550px;
 }
-
+.tituloindex h5{
+    font-size: 18px;
+    text-align: right;
+}
+#apresentacao{
+    width: 100%;
+    position: relative;
+    background-color: #333;
+}
+.tituloPlaylist{
+    height: 180px;
+    width: 500px;
+    position: absolute;
+    top: 70px;
+    left: calc(50% - 250px);
+    text-align: center;
+    margin-bottom: 80px;
+}
+.tituloPlaylist h2{
+    color: white;
+    font-family: inherit;
+    font-weight: 200;
+    font-size: 40px;
+}
 
 .imagemLogo{
     padding: 0px;
@@ -289,4 +311,31 @@ a{
 .container_janta img{
   width: 300px;
   height: 300px;
+}
+
+#footer{
+    background-color: black;
+    padding: 70px 0px;
+}
+.icons{
+    text-align: center;
+    color: #aaa;
+    font-size: 40px;
+}
+.fa{
+    padding: 0px 15px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.fa:hover{
+    color: white;
+    transition: 0.5s;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: helvetica;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0px;
 }
