@@ -4,10 +4,12 @@ html, body{
 }
 body{
     background-color: black;
+    color: black;
 }
 a{
     cursor: pointer;
 }
+
 .tituloindex{
   padding: 0;
   border: 0;
@@ -18,13 +20,14 @@ a{
   position: relative;
   margin: 0px auto;
   margin-top: 300px;
-  color: white;
+  color: rgba(255,255,255,0.8);
 }
 .tituloindex h2{
   text-align: center;
   width: 800px;
   margin-left: 550px;
 }
+
 
 .imagemLogo{
     padding: 0px;
@@ -145,33 +148,35 @@ a{
     font-size: 50px;
 }
 #sectionreceita1{
+    width: 100%;
+    position: relative;
 }
 .titulo{
-  margin-left: 500px;
-  margin-top:150px;
+    margin: 150px 0px 15px 0px;
+    height: 250px;
+    width: 500px;
+    left: calc(50% - 250px);
+    text-align: center;
+
 }
 .titulo h1{
+    width: 100%;
   color: white;
-  margin: 0px auto;
   margin-bottom: 50px;
 }
-.link li{
+.botaoLink a{
     border-radius: 50px;
-    padding: 10px;
+    padding: 10px 25px;
     margin-top: 100px;
-    padding: 0px auto;
     text-align: center;
     width: 100px;
     list-style: none;
     border: solid;
     border-color: white;
     border-width: medium;
+    color: white;
   }
-.link a{
-  text-decoration: none;
-  color: white;
-}
-.link li:hover{
+.botaolink a:hover{
 	cursor: pointer;
 	transition: 0.5s;
 	border-color: blue;
