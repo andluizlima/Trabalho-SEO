@@ -128,6 +128,39 @@ a{
     font-size: 50px;
 }
 
+<<<<<<< HEAD
+#sectionreceita1{
+}
+.titulo{
+  margin-left: 500px;
+  margin-top:150px;
+}
+.titulo h1{
+  text-align: center;
+  color: white;
+}
+.link li{
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 350px;
+    text-align: center;
+    width: 100px;
+    list-style: none;
+    border: solid;
+    border-color: white;
+    border-width:
+  }
+.link a{
+  text-decoration: none;
+  color: white;
+}
+.link li:hover{
+	cursor: pointer;
+	transition: 0.5s;
+	border-color: #blue;
+}
+=======
 
 
 
@@ -155,3 +188,4 @@ a{
 .tituloPagina h1{
     margin-bottom: 35px;
 }
+>>>>>>> 691d6b189353920a5fff4d6d04439cc92aad7a96
