@@ -134,14 +134,15 @@ a{
   margin-top:150px;
 }
 .titulo h1{
-  text-align: center;
   color: white;
+  margin: 0px auto;
+  margin-bottom: 50px;
 }
 .link li{
     border-radius: 50px;
     padding: 10px;
     margin-top: 100px;
-    margin-left: 350px;
+    padding: 0px auto;
     text-align: center;
     width: 100px;
     list-style: none;
@@ -158,9 +159,6 @@ a{
 	transition: 0.5s;
 	border-color: blue;
 }
-
-
-
 #principais{
     position: relative;
     margin-top: 100px;
@@ -220,4 +218,53 @@ a{
 }
 #dicas h3{
     background-color: rgba(255,255,255,0.2);
+}
+#backgroundreceitas{
+  background-image: url(../../receitas/images/gordon.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#sectionreceita2 h2{
+  text-align: center;
+  color: white;
+    margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.container_cafe{
+  border: solid;
+  text-align: center;
+}
+.container_cafe img{
+  width: 300px;
+  height: 300px;
+}
+#sectionreceita3 h2{
+  text-align: center;
+    margin: 0px auto;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.container_almoço{
+  border: solid;
+  text-align: center;
+}
+.container_almoço img{
+  width: 300px;
+  height: 300px;
+}
+#sectionreceita4 h2{
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.container_janta{
+  border: solid;
+  text-align: center;
+}
+.container_janta img{
+  width: 300px;
+  height: 300px;
 }
