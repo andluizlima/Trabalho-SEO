@@ -127,8 +127,7 @@ a{
     font-weight: bolder;
     font-size: 50px;
 }
-
-<<<<<<< HEAD
+<!
 #sectionreceita1{
 }
 .titulo{
@@ -136,14 +135,15 @@ a{
   margin-top:150px;
 }
 .titulo h1{
-  text-align: center;
   color: white;
+  margin: 0px auto;
+  margin-bottom: 50px;
 }
 .link li{
     border-radius: 50px;
     padding: 10px;
     margin-top: 100px;
-    margin-left: 350px;
+    margin: 0px auto;
     text-align: center;
     width: 100px;
     list-style: none;
@@ -158,12 +158,8 @@ a{
 .link li:hover{
 	cursor: pointer;
 	transition: 0.5s;
-	border-color: #blue;
+	border-color:blue;
 }
-=======
-
-
-
 #principais{
     position: relative;
     margin-top: 100px;
@@ -188,4 +184,52 @@ a{
 .tituloPagina h1{
     margin-bottom: 35px;
 }
->>>>>>> 691d6b189353920a5fff4d6d04439cc92aad7a96
+#backgroundreceitas{
+  background-image: url(gordon.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#sectionreceita2 h2{
+  text-align: center;
+  color: white;
+    margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.container_cafe{
+  border: solid;
+  text-align: center;
+}
+.container_cafe img{
+  width: 300px;
+  height: 300px;
+}
+#sectionreceita3 h2{
+  text-align: center;
+    margin: 0px auto;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.container_almoço{
+  border: solid;
+  text-align: center;
+}
+.container_almoço img{
+  width: 300px;
+  height: 300px;
+}
+#sectionreceita4 h2{
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.container_janta{
+  border: solid;
+  text-align: center;
+}
+.container_janta img{
+  width: 300px;
+  height: 300px;
+}
