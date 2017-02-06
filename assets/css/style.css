@@ -127,3 +127,31 @@ a{
     font-weight: bolder;
     font-size: 50px;
 }
+
+
+
+
+#principais{
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+}
+.imgPrincipais{
+    margin-bottom: 35px;
+}
+.imgPrincipais img{
+    border: solid;
+    border-color: rgba(255,255,255,0.8);
+    border-width: medium;
+}
+#principais h1, h3, p{
+    font-family: inherit;
+    font-weight: 300;
+    color: white;
+}
+#principais h3{
+    font-size: 35px;
+}
+.tituloPagina h1{
+    margin-bottom: 35px;
+}
